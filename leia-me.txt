@@ -1,0 +1,8 @@
+O notebook analise_passes ele é que extrai as features dos arquivos.
+
+Para um jogo ser analisado pela primeira vez, ele primeiro precisa se rodado no oponent_aware e predict_ball_zone (codigo Raniere), que gera arquivos utilizados para extração das features.
+
+Os arquivos gerados devem ser colocadosna pasta jogos.
+
+A classificação acontece no notebook Xgboost_zona_de_interesse.
+
